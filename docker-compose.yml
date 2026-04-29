@@ -1,9 +1,8 @@
-version: '3.8'
 
 services:
 
   flask-app:
-    image: <your-docker-username>/flask-monitoring-app:latest
+    image: joshihimanshu/flask-monitoring-app:latest
     container_name: flask-app
     ports:
       - "5000:5000"
