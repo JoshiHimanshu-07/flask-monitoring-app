@@ -1,0 +1,8 @@
+{
+    "himanshu": {
+        "password": "scrypt:32768:8:1$sz5TjDLAXG3EzCbL$709f82e31ed958cdb80ba066c0d6b3c95afabfe79bbf1bdc1b79fadef2c61f1e7620978c0754b40528dc9693b7e8f9d373c043a6fd39bc24f506327ca21f054d",
+        "login_count": 2,
+        "last_login": "2026-04-29 10:40:10.407743",
+        "strength": 1
+    }
+}

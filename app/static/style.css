@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Container */
+.container {
+    width: 350px;
+    padding: 25px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #ff7b00;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ff9500;
+}
+
+/* Links */
+a {
+    display: block;
+    margin-top: 10px;
+    color: #ffd700;
+    text-decoration: none;
+}
+
+/* Dashboard Cards */
+.card {
+    background: white;
+    color: black;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* Highlight text */
+.highlight {
+    font-size: 20px;
+    color: #ff7b00;
+}
