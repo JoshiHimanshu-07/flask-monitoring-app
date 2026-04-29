@@ -1,0 +1,21 @@
+node_modules
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sensitive variable files
+terraform.tfvars
+*.tfvars
+
+# Terraform lock (optional keep or ignore)
+.terraform.lock.hcl
+
+# SSH keys
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
